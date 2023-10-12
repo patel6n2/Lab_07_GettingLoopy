@@ -48,5 +48,27 @@ public class LoopsPractice
             }
             System.out.println();
         }
+        System.out.println();
+        for (int i = 0; i <= 5; i++)
+        {
+            for (int j = 0; j <= 5; j++)
+            {
+                if (j == 0 || j == 5 || i == j)
+                {
+                    for (int k = 1; k <= 2; k++)
+                    {
+                        System.out.print("*");
+                    }
+                }
+                else
+                {
+                    for (int k = 1; k <= 2; k++)
+                    {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+        }
     }
 }
